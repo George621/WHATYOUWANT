@@ -10,3 +10,5 @@ npm run dev
 npm run build
 ```
 sass 8.X会有警告换成了7
+遗留问题：
+min-css 插件如何检查 js插入等dom  图片问题
