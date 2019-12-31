@@ -1,5 +1,17 @@
 /*! 版权所有，翻版必究,george */
-body{background:url(images/011a5e66f816ca19717f246bf671789c.jpeg) no-repeat}div{background-color:#ffffff}.a{color:black;font-size:14px;background:red}
+body {
+  background: url(images/011a5e66f816ca19717f246bf671789c.jpeg) no-repeat;
+}
 
-body{color:orange}body div{background-color:black;border:2px solid red}.a{color:black;font-size:14px;background:red}
+div {
+  background-color: #ffffff;
+}
 
+body {
+  color: orange;
+}
+
+body div {
+  background-color: black;
+  border: 2px solid red;
+}

@@ -9,7 +9,7 @@ div{
     background-color: #ffffff;
 }
 /* 冗余css */
-.a {
+a {
     color: black;
     font-size: 14px;
     background: red;
