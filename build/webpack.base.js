@@ -9,7 +9,7 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin'); //引入分离�
 module.exports = {
 	entry: {    // 入口文件指定
 		index: path.join(__dirname, '..', '/src/index.js'), 
-		index2: path.join(__dirname, '..', '/src/index2.js'), 
+		// index2: path.join(__dirname, '..', '/src/index2.js'), 
 	},       
 	output: { // 打包后文件存放位置
 		path: path.join(__dirname,'..', 'dist'),             
@@ -61,14 +61,6 @@ module.exports = {
 			hash: true
 
 		}),
-		// new HtmlWebpackPlugin({
-		// 	template: path.join(__dirname, '..', "/src/template.html"), // new一个这个插件的实例，并传入相关的参数
-		// 	filename: 'index2.html',
-		// 	title: 'index2',
-		// 	chunks: ['index2'],
-		// 	hash: true
-
-		// }),
 		new webpack.HotModuleReplacementPlugin(), // 热更新插件 
 		new MiniCssExtractPlugin({
 			filename: "css/index.css"
