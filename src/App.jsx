@@ -5,7 +5,7 @@ import Info from './view/Info/index'
 
 const App = () => {
   return (
-    <BrowserRouter basename = 'http://www.dev.com/'>
+    <BrowserRouter basename = 'event.dev.mi.com/chin2020'>
       <Switch>
         <Route path='/' exact component={Home} />
         <Route path='/info'  component={Info} />
