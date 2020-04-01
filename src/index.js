@@ -1,7 +1,6 @@
-import './index.css'
-import './a.scss'
+import React from 'react'
+import ReactDOM from 'react-dom'
 
-console.log(1212)
-const hello = require('./hello')
-document.querySelector('#root').appendChild(hello())
-console.log('结束111')
+import App from './App'
+
+ReactDOM.render(<App />,document.getElementById('root'));

@@ -1,3 +1,6 @@
+// {
+//   "presets":["@babel/preset-react","@babel/react","env"]
+// }
 {
-  "presets":["react","env"]
+  "presets":["@babel/preset-react"]
 }
