@@ -12,6 +12,8 @@ module.exports = merge(base, {
 		inline: true,
 		// open: true,
 		overlay: true,
+		historyApiFallback: true,
+		disableHostCheck: true
 	}
 })
 

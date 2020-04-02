@@ -5,10 +5,10 @@ import Info from './view/Info/index'
 
 const App = () => {
   return (
-    <BrowserRouter basename = 'event.dev.mi.com/chin2020'>
+    <BrowserRouter basename = 'test.self.com'>
       <Switch>
         <Route path='/' exact component={Home} />
-        <Route path='/info'  component={Info} />
+        <Route path='/info' exact  component={Info} />
       </Switch>
     </BrowserRouter>
   )
