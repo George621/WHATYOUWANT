@@ -1,0 +1,26 @@
+.contain{
+  color: orange;
+  // filter: grayscale(100%);
+  list-style: none;
+  padding: 0;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid green;
+  // flex-direction: column;
+  li{
+    width: 60px;
+    height: 36px;
+    line-height: 36px;
+    margin: 0 20px;
+    border-radius: 5px;
+    background-color: #ccc;
+    text-align: center;
+    flex-shrink: 1;
+  }
+  .oneLi{
+    flex-basis: 100px;
+    flex-shrink: 2;
+  }
+}

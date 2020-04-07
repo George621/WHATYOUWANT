@@ -1,10 +1,16 @@
 import React from 'react'
-
+import './index.scss'
 const Home = (props) => {
  
   return (
     <div>
-      Home is herre!!
+     <span> Home is herre!!</span>
+     <ul className='contain'>
+       <li className='oneLi'>1</li>
+       <li>2</li>
+       <li>3</li>
+       <li>4</li>
+     </ul>
     </div>
   )
 }
