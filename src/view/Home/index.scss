@@ -24,3 +24,21 @@
     flex-shrink: 2;
   }
 }
+.pink{
+  width: 100px;
+  height: 100px;
+  background-color: pink;
+  // float: left;
+  margin-bottom: 20px;
+
+}
+.purple{
+  margin-top: 20px;
+  width: 130px;
+  height: 130px;
+  background-color: purple;
+  // float: left;
+  // overflow: hidden;
+  position: absolute;
+  // display:grid;
+}

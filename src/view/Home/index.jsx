@@ -11,6 +11,8 @@ const Home = (props) => {
        <li>3</li>
        <li>4</li>
      </ul>
+     {/* <div className="pink"></div>
+     <div className="purple"></div> */}
     </div>
   )
 }
